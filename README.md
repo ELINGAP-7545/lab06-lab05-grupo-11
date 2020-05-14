@@ -1,4 +1,5 @@
-# lab06 Diseño de banco de Registro
+# lab06 
+# Diseño de banco de Registro
 
 # Introducción
 
