@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 ###Pedro Javier Puerto Joya
 ###Esteban Suarez
 ###Jorge Sanchez
 
 # lab06 Diseño de banco de Registro
+=======
+# lab06 
+# Diseño de banco de Registro
+>>>>>>> 9478f77a0edc1051650a874fdd8b394b515c5ec1
 
 # Introducción
 
-
+sadsadad
 Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP06](https://classroom.github.com/g/XHLhUCe3). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
 
 Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
