@@ -1,3 +1,7 @@
+###Pedro Javier Puerto Joya
+###Esteban Suarez
+###Jorge Sanchez
+
 # lab06 Diseño de banco de Registro
 
 # Introducción
