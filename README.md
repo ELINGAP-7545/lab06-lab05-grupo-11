@@ -1,12 +1,12 @@
-# laboratorio 06 - Diseño de banco de Registro
+## laboratorio 06 - Diseño de banco de Registro
 
-## Integrantes:
+### Integrantes:
 
-### Pedro Javier Puerto Joya
-### Esteban Suarez
-### Jorge Sanchez
+#### Pedro Javier Puerto Joya
+#### Esteban Suarez
+#### Jorge Sanchez
 
-# Introducción
+## Introducción
 
 sadsadad
 Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP06](https://classroom.github.com/g/XHLhUCe3). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
