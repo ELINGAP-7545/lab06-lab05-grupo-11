@@ -1,13 +1,11 @@
-<<<<<<< HEAD
+# lab06 
+# Diseño de banco de Registro
+
+## Integrantes:
+
 ###Pedro Javier Puerto Joya
 ###Esteban Suarez
 ###Jorge Sanchez
-
-# lab06 Diseño de banco de Registro
-=======
-# lab06 
-# Diseño de banco de Registro
->>>>>>> 9478f77a0edc1051650a874fdd8b394b515c5ec1
 
 # Introducción
 
