@@ -1,11 +1,10 @@
-# lab06 
-# Diseño de banco de Registro
+# laboratorio 06 - Diseño de banco de Registro
 
 ## Integrantes:
 
-###Pedro Javier Puerto Joya
-###Esteban Suarez
-###Jorge Sanchez
+### Pedro Javier Puerto Joya
+### Esteban Suarez
+### Jorge Sanchez
 
 # Introducción
 
