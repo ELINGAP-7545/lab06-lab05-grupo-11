@@ -44,6 +44,10 @@ Entregables:
 
  ![caja](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab07-BancosRgistro/doc/banco%20registro.png)
 
+
+##ESPECIFICACI”N.
+
+
 ## Desarrollo de la practica
 
 #### Descripci√≥n
