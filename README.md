@@ -65,4 +65,4 @@ Por medio de los conceptos recibidos en el contenido de la tematica tratada dura
 #### datOutRa
 #### datOutRb
 
-#### En las diferentes posiciones de entrada del banco de registros se encuentran cargados por defecto valores como son 9 "1001 ",7 "0111",5 "0101",1 "0001". que se veran visualizadas de la siguiente manera.
+#### En las diferentes posiciones de entrada del banco de registros se encuentran cargados por defecto valores como son 9"1001 ",7 "0111",5 "0101",1 "0001". que se veran visualizadas de la siguiente manera.
