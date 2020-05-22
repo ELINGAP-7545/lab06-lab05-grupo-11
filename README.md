@@ -47,8 +47,22 @@ Entregables:
 ## Desarrollo de la practica
 
 #### Descripción
-Por medio de los conceptos recibidos en el contenido de la tematica tratada durante las sesiones de clase se procede a realizar un desarrollo con bancos de registros, en donde se tiene el control mediante registros de entrada de 2bits y 4 bits como son:
-####	reg [1:0] addrRa;
-####    reg [1:0] addrRb;
-####	reg [3:0] addrW;
-####	reg [3:0] datW;
+Por medio de los conceptos recibidos en el contenido de la tematica tratada durante las sesiones de clase se procede a realizar un desarrollo con bancos de registros, en donde se tiene el control de los saltos mediante registros de entrada de 2bits y 4 bits como son:
+####	reg [1:0] addrRa; lectura
+####    reg [1:0] addrRb; lectura
+####	reg [3:0] addrW;  Escritura
+####	reg [3:0] datW;   Escritura
+
+#### addrRa y addrRb son los registros que permiten seleccionar la posición del banco de registros que se desea visualizar en las salidas denominadas datOutRa y datOutRb  , en este caso las posiciones de registros se observan de la siguiente manera:
+
+## Entradas 
+#### breg[0] <= 9;  //  1001 
+#### breg[1] <= 7;  //  0111
+#### breg[2] <= 5;  //  0101
+#### breg[3] <= 1;  //  0001
+		
+## Salidas
+#### datOutRa
+#### datOutRb
+
+#### En las diferentes posiciones de entrada del banco de registros se encuentran cargados por defecto valores como son 9 "1001 ",7 "0111",5 "0101",1 "0001". que se veran visualizadas de la siguiente manera.
