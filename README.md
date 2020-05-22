@@ -1,4 +1,4 @@
-## laboratorio 06 - Diseño de banco de Registro
+## laboratorio 06 - Diseño de banco de Registros
 
 ### Integrantes:
 
