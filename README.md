@@ -111,6 +111,8 @@ Las entradas se distribuyen de la siguiente manera:
 	 assign rst  = V_BT [1];		// Botón de reset para el Banco de Registros
 	 assign clk = G_CLOCK_50;		// Clock
 	 
+![simm](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Captura.PNG)
+
 
 	 
 	 
