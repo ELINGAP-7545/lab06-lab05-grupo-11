@@ -79,14 +79,40 @@ En las diferentes posiciones del banco de registros se encuentran asignados por 
 ### Escritura 
 
 Para realizar el proceso de escritura en el banco de registros, como primera medida se debe obturar el interruptor perteneciente al reset dejando los datos en todas las posiciones del banco de registros en 0.
+
 ![reset](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/reset.PNG)
 
+
 En segundo lugar se debe inicializar en estado 1 el pulsador RegWrite el cual permite acceder a modificar las entradas addrW y datW, siendo la primera de ellas la que permite direccionar la posición del banco de registros que almacenará los datos que posteriormente se asignaran en datW, cargando asi la visualización en las demas salidas.  
+
 ![escritura](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/escritura.PNG)
+
 
 ### Implementación
 
 Para esto utilizamos el Laboratorio Virtual "Labsland" que nos permite modificar el código para ver la implementación en una conexión remota con una FPGA utilizando los Switch, Botones y Displays de la misma.
 
 Se realiza las siguientes modificaciónes a las entradas y salidas para la Implementación.
+
+	 input  [9:0] V_SW,			// Entrada de 10 Bits de los Switch
+	 output [0:6] G_HEX0,			// Salida Display 1
+	 output [0:6] G_HEX1,			// Salida Display 2
+	 input  [1:0] V_BT,			// Entrada de Botones
+	 input G_CLOCK_50			// Entrada Clock
+	 
+Las entradas se distribuyen de la siguiente manera:
+
+	 assign addrRa [1:0] = V_SW [1:0]; 	// Entrada addrRa 2 bits
+	 assign addrRb [1:0] = V_SW [3:2]; 	// Entrada addrRb 2 bits
+	 assign addrW  [1:0] = V_SW [5:4]; 	// Entrada addrW  2 bits
+	 assign datW   [3:0] = V_SW [9:6]; 	// Entrada datW   4 bits
+	 
+	 assign RegWrite  = V_BT [0];		// Botón que habilta la escritura en el Banco de Registros
+	 assign rst  = V_BT [1];		// Botón de reset para el Banco de Registros
+	 assign clk = G_CLOCK_50;		// Clock
+	 
+
+	 
+	 
+
 
