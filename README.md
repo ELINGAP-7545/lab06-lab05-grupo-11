@@ -55,6 +55,9 @@ Dirección de registro (addW): es una entrada a nuestro banco de registro de 3 bi
 Registro de escritura (datW): es una entrada de 3 bits que se encarga de darnos el VALOR del dato que vamos a guardar en nuestro registro.
 Tenemos también 2 salidas (datR1), (datR2) de 3 bits cada salida que nos van a mostrar el resultado final.
 
+Adicionalmente, mostraremos unos tópicos sobre la composición de del sistema de memoria, las instrucciones de registro están en la jerarquía de la arquitectura de un microprocesador, los registros son claves, para la construcción de circuitos de bloques secuenciales.
+Los registros, aunque se ejecutan de manera concurrente, se debe sincronizar las señales con el reloj.
+
 
 ## Desarrollo de la practica
 
