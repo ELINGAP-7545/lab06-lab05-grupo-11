@@ -64,6 +64,8 @@ addrRa y addrRb son los registros de lectura de 2 bits que permiten seleccionar 
 		
 En las diferentes posiciones del banco de registros se encuentran asignados por defecto valores como son 9, 7, 5, 1.
 
+### Simulación
+
 1. Se observa visualización en salida datOutRa y datOutRb en las posiciones 0 y 1
 
 ![sim](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/simulacionn.PNG)
@@ -109,11 +111,14 @@ Las entradas se distribuyen de la siguiente manera:
 	 assign rst  = V_BT [1];		// Botón de reset para el Banco de Registros
 	 assign clk = G_CLOCK_50;		// Clock
 	 
- ![simm](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Captura.PNG)
+ ![cn](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Captura.PNG)
 
+En el estado inicial el Banco de registro tiene pre-cargada la información que está descrita anteriormente. addRa y addRb están en "0" Por tanto en los displays, se mostrará el número 9 que se había precargado en la dirección 00 del Banco de Registros como se muestra a continuación:
 
-![cn](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Registros%20en%20Cero.PNG)
+ ![cn](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Registros%20en%20Cero.PNG)
+ 
+Para la prueba de Lectura por medio de los Switch de la FPGA se deja addRa = 01 y addRb = 11. Por tanto en los displays, se mostrará el número 1 y el número 7 que se había precargado en la dirección "11" y "01" respectivamente en el Banco de Registros como se muestra a continuación:
 
-![cn](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Registros%20en%20un%20dato.PNG)
+ ![cn](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Registros%20en%20un%20dato.PNG)
 
 
