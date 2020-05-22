@@ -112,7 +112,8 @@ Las entradas se distribuyen de la siguiente manera:
  ![simm](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Captura.PNG)
 
 
-	 
-	 
+![cn](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Registros%20en%20Cero.PNG)
+
+![cn](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Registros%20en%20un%20dato.PNG)
 
 
