@@ -37,6 +37,7 @@ Entregables:
 
 
 ## Desarrollo de la practica
+![Diagrama de flujo](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Diagrama%20de%20flujo.PNG)
 
 ### Descripción
 ### lectura
