@@ -27,11 +27,6 @@ Se debe diseñar un banco de registro tal que:
 * Visualizar la información, en al menos dos display de 7 segmentos (información de cada registro leído).
 * El ingreso de la información se debe hacer por medio de los interruptores.
 
-
-**Opcional. Da mas puntos:**
-* Parametrizar el tamaño de palabra de cada registro  y la cantidad de registro ( Por defecto =4 bits). Se recomienda leer el documento de este [link](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-884-complex-digital-systems-spring-2005/related-resources/parameter_models.pdf) .
-* Pre cargar el banco de registro con información.  _Usar $readmenh_  (Investigar: "Initialize Memory in Verilog").
-
 Entregables:
 
 * Documentación
@@ -45,26 +40,26 @@ Entregables:
 
 ## Desarrollo de la practica
 
-## Descripción
-## lectura
+### Descripción
+### lectura
 Por medio de los conceptos recibidos en el contenido de la tematica tratada durante las sesiones de clase se procede a realizar un desarrollo con bancos de registros, en donde se tiene el control de los saltos mediante registros de entrada de 2bits y 4 bits controlados por interruptores permitiendo lectura y escritura almacenadas en las posiciones de memoria asignadas:
-## Entradas 
+### Entradas 
 ####	reg [1:0] addrRa; lectura
 ####    reg [1:0] addrRb; lectura
 ####	reg [3:0] addrW;  Escritura
 ####	reg [3:0] datW;   Escritura
-## Salidas
+### Salidas
 #### datOutRa
 #### datOutRb
 
-#### addrRa y addrRb son los registros de 2 bits que permiten seleccionar la posición del banco de registros que se desea visualizar en las salidas denominadas datOutRa y datOutRb  , en este caso las posiciones de registros se observan de la siguiente manera:
+#### addrRa y addrRb son los registros de lectura de 2 bits que permiten seleccionar la dirección del banco de registros que se desea visualizar en las salidas denominadas datOutRa y datOutRb  , en este caso en cada direccion del banco de registros fue precargada con la siguiente información:
 
 #### breg[0] <= 9;  //  1001 
 #### breg[1] <= 7;  //  0111
 #### breg[2] <= 5;  //  0101
 #### breg[3] <= 1;  //  0001
 		
-#### En las diferentes posiciones de entrada del banco de registros se encuentran cargados por defecto valores como son 9, 7, 5, 1.
+#### En las diferentes posiciones del banco de registros se encuentran asignados por defecto valores como son 9, 7, 5, 1.
 
 #### 1. Se observa visualización en salida datOutRa y datOutRb en las posiciones 0 y 1
 ![sim](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/simulacionn.PNG)
@@ -72,10 +67,12 @@ Por medio de los conceptos recibidos en el contenido de la tematica tratada dura
 #### 2. Se observa visualización en salida datOutRa y datOutRb en las posiciones 2 y 3
 ![simm](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/simulacion.PNG)
 
-## Escritura 
+### Escritura 
 
 #### Para realizar el proceso de escritura en el banco de registros, como primera medida se debe obturar el interruptor perteneciente al reset dejando los datos en todas las posiciones del banco de registros en 0.
 ![reset](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/reset.PNG)
 
 #### En segundo lugar se debe inicializar en estado 1 el pulsador RegWrite el cual permite acceder a modificar las entradas addrW y datW, siendo la primera de ellas la que permite direccionar la posición del banco de registros que almacenará los datos que posteriormente se asignaran en datW, cargando asi la visualización en las demas salidas.  
 ![escritura](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/escritura.PNG)
+
+### Implementación
