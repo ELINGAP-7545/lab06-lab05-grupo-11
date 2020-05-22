@@ -46,7 +46,10 @@ Entregables:
 
 
 ## EspecificacÃ³n
-
+Banco de registro tenemos una memoria que cuenta con 16 espacios de memoria en el
+cual podemos escribir mediante selectores o interruptores.
+Con estos interruptores podemos generar un número binario para almacenar en algun
+registro de memoria.
 
 ## Desarrollo de la practica
 
