@@ -45,7 +45,7 @@ Entregables:
  ![caja](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab07-BancosRgistro/doc/banco%20registro.png)
 
 
-## EspecificacÃ³n
+## Especificación
 
 Banco de registro tenemos una memoria que cuenta con 16 espacios de memoria en el cual podemos escribir mediante selectores o interruptores. 
 Con estos interruptores podemos generar un número binario para almacenar en algun registro de memoria.
@@ -84,3 +84,4 @@ Por medio de los conceptos recibidos en el contenido de la tematica tratada dura
 #### datOutRb
 
 #### En las diferentes posiciones de entrada del banco de registros se encuentran cargados por defecto valores como son 9"1001", 7 "0111",5 "0101",1 "0001". asi.
+#### 1. Se observa visualización en salida datOutRa y datOutRb en las posiciones 00 y 01 mostrando 1001 y 0111 
