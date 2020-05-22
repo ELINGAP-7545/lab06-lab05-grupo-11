@@ -50,6 +50,7 @@ Banco de registro tenemos una memoria que cuenta con 16 espacios de memoria en e
 cual podemos escribir mediante selectores o interruptores.
 Con estos interruptores podemos generar un número binario para almacenar en algun
 registro de memoria.
+Contamos con un interruptor llamado reset (RST) de 1 bit que es el encargado de poner nuestros espacios de memoria en 0 cuando este sea necesario. Tenemos una señal de reloj (CLK) de 1 bit que se activa solo en flanco de subida dando cada flanco de subida un 1 y un 0 para su flanco de bajada. Registro Write (WR): el registro es una entrada a nuestro banco de registro de 1 bits se puede manejar mediante un interruptor de escritura
 
 ## Desarrollo de la practica
 
