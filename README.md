@@ -48,7 +48,7 @@ Entregables:
 ## Desarrollo de la practica
 
 ## Descripción
-#### lectura
+## lectura
 Por medio de los conceptos recibidos en el contenido de la tematica tratada durante las sesiones de clase se procede a realizar un desarrollo con bancos de registros, en donde se tiene el control de los saltos mediante registros de entrada de 2bits y 4 bits controlados por interruptores permitiendo lectura y escritura almacenadas en las posiciones de memoria asignadas:
 ## Entradas 
 ####	reg [1:0] addrRa; lectura
@@ -74,7 +74,10 @@ Por medio de los conceptos recibidos en el contenido de la tematica tratada dura
 #### 2. Se observa visualización en salida datOutRa y datOutRb en las posiciones 2 y 3
 ![simm](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/simulacion.PNG)
 
-#### Escritura 
+## Escritura 
 
 #### Para realizar el proceso de escritura en el banco de registros, como primera medida se debe obturar el interruptor perteneciente al reset dejando los datos en todas las posiciones del banco de registros en 0.
 ![reset](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/reset.PNG)
+
+#### En segundo lugar se debe inicializar en estado 1 el pulsador RegWrite el cual permite acceder a modificar las entradas addrW y datW, siendo la primera de ellas la que permite direccionar la posición del banco de registros que almacenará los datos que posteriormente se asignaran en datW, cargando asi la visualización en las demas salidas.  
+![escritura](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/escritura.PNG)
