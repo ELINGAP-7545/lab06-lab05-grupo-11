@@ -60,6 +60,8 @@ Como muestra la figura es la forma fundamental y básica, de cómo se muestran las
 
 ![secuencia](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/secuencias%20de%20estado.PNG)
 
+Los registros son flip flops, que son un tipo de memoria que almacena cantidades limitadas de datos, algunas más eficientes como las memorias RAM nos ayuda a mejorar su funcionamiento y velocidad, de determinan usando la cantidad de datos que almacenarán, la dirección del registro y en qué espacio de memoria se ubicará el dato. 
+
 ## Diagrama de flujo propuesto pra el banco de registro. 
 
 ![Diagrama de flujo](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Diagrama%20de%20flujo.PNG)
