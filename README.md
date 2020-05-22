@@ -52,6 +52,9 @@ Con estos interruptores podemos generar un número binario para almacenar en algu
 registro de memoria.
 Contamos con un interruptor llamado reset (RST) de 1 bit que es el encargado de poner nuestros espacios de memoria en 0 cuando este sea necesario. Tenemos una señal de reloj (CLK) de 1 bit que se activa solo en flanco de subida dando cada flanco de subida un 1 y un 0 para su flanco de bajada. Registro Write (WR): el registro es una entrada a nuestro banco de registro de 1 bits se puede manejar mediante un interruptor de escritura (1) o lectura (0) con este interruptor podemos escoger si queremos leer o escribir algún dato.
 Dirección de registro (addW): es una entrada a nuestro banco de registro de 3 bits,tiene la función de guardarnos el dato de memoria en un registro de los 16 espacios que tenemos.
+Registro de escritura (datW): es una entrada de 3 bits que se encarga de darnos el VALOR del dato que vamos a guardar en nuestro registro.
+Tenemos también 2 salidas (datR1), (datR2) de 3 bits cada salida que nos van a mostrar el resultado final.
+
 
 ## Desarrollo de la practica
 
