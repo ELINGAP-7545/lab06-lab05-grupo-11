@@ -56,7 +56,7 @@ Adicionalmente, mostraremos unos tópicos sobre la composición de del sistema de 
 Los registros, aunque se ejecutan de manera concurrente, se debe sincronizar las señales con el reloj. 
 Como muestra la figura es la forma fundamental y básica, de cómo se muestran las secuencias de estado de los bancos de registro
 
-7
+![secuencia](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/secuencias%20de%20estado.PNG)
 
 ## Desarrollo de la practica
 
