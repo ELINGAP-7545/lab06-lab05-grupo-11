@@ -42,19 +42,24 @@ Entregables:
 
 ### Descripción
 ### lectura
+
 Por medio de los conceptos recibidos en el contenido de la tematica tratada durante las sesiones de clase se procede a realizar un desarrollo con bancos de registros, en donde se tiene el control de los saltos mediante registros de entrada de 2bits y 4 bits controlados por interruptores permitiendo lectura y escritura almacenadas en las posiciones de memoria asignadas:
+
 ### Entradas 
+
 	reg [1:0] addrRa; lectura
-        reg [1:0] addrRb; lectura
+	reg [1:0] addrRb; lectura
 	reg [3:0] addrW;  Escritura
 	reg [3:0] datW;   Escritura
+	
 ### Salidas
-        datOutRa
-        datOutRb
+
+	datOutRa
+	datOutRb
 
 addrRa y addrRb son los registros de lectura de 2 bits que permiten seleccionar la dirección del banco de registros que se desea visualizar en las salidas denominadas datOutRa y datOutRb  , en este caso en cada direccion del banco de registros fue precargada con la siguiente información:
 
-        breg[0] <= 9;  //  1001 
+	breg[0] <= 9;  //  1001 
 	breg[1] <= 7;  //  0111
 	breg[2] <= 5;  //  0101
 	breg[3] <= 1;  //  0001
@@ -62,10 +67,14 @@ addrRa y addrRb son los registros de lectura de 2 bits que permiten seleccionar 
 En las diferentes posiciones del banco de registros se encuentran asignados por defecto valores como son 9, 7, 5, 1.
 
 1. Se observa visualización en salida datOutRa y datOutRb en las posiciones 0 y 1
+
 ![sim](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/simulacionn.PNG)
  
+ 
 2. Se observa visualización en salida datOutRa y datOutRb en las posiciones 2 y 3
+
 ![simm](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/simulacion.PNG)
+
 
 ### Escritura 
 
