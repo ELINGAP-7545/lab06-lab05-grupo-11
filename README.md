@@ -67,7 +67,7 @@ Por medio de los conceptos recibidos en el contenido de la tematica tratada dura
 
 #### En las diferentes posiciones de entrada del banco de registros se encuentran cargados por defecto valores como son 9"1001", 7 "0111",5 "0101",1 "0001". asi.
 
-## 1. Visualización de datos cargados por defecto en la posición 00 y 01, pertenecientes al decimal 9 y 7, en binario 1001 y 0111
+#### 1. Visualización de datos cargados por defecto en la posición 00 y 01, pertenecientes al decimal 9 y 7, en binario 1001 y 0111
 
 
-## 2. Visualización de datos cargados por defecto en la posición 02 y 03, pertenecientes al decimal 5 y 1, en binario 0101 y 0001
+#### 2. Visualización de datos cargados por defecto en la posición 02 y 03, pertenecientes al decimal 5 y 1, en binario 0101 y 0001
