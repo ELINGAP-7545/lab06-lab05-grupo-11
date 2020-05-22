@@ -44,35 +44,40 @@ Entregables:
 ### lectura
 Por medio de los conceptos recibidos en el contenido de la tematica tratada durante las sesiones de clase se procede a realizar un desarrollo con bancos de registros, en donde se tiene el control de los saltos mediante registros de entrada de 2bits y 4 bits controlados por interruptores permitiendo lectura y escritura almacenadas en las posiciones de memoria asignadas:
 ### Entradas 
-####	reg [1:0] addrRa; lectura
-####    reg [1:0] addrRb; lectura
-####	reg [3:0] addrW;  Escritura
-####	reg [3:0] datW;   Escritura
+	reg [1:0] addrRa; lectura
+        reg [1:0] addrRb; lectura
+	reg [3:0] addrW;  Escritura
+	reg [3:0] datW;   Escritura
 ### Salidas
-#### datOutRa
-#### datOutRb
+        datOutRa
+        datOutRb
 
-#### addrRa y addrRb son los registros de lectura de 2 bits que permiten seleccionar la dirección del banco de registros que se desea visualizar en las salidas denominadas datOutRa y datOutRb  , en este caso en cada direccion del banco de registros fue precargada con la siguiente información:
+addrRa y addrRb son los registros de lectura de 2 bits que permiten seleccionar la dirección del banco de registros que se desea visualizar en las salidas denominadas datOutRa y datOutRb  , en este caso en cada direccion del banco de registros fue precargada con la siguiente información:
 
-#### breg[0] <= 9;  //  1001 
-#### breg[1] <= 7;  //  0111
-#### breg[2] <= 5;  //  0101
-#### breg[3] <= 1;  //  0001
+        breg[0] <= 9;  //  1001 
+	breg[1] <= 7;  //  0111
+	breg[2] <= 5;  //  0101
+	breg[3] <= 1;  //  0001
 		
-#### En las diferentes posiciones del banco de registros se encuentran asignados por defecto valores como son 9, 7, 5, 1.
+En las diferentes posiciones del banco de registros se encuentran asignados por defecto valores como son 9, 7, 5, 1.
 
-#### 1. Se observa visualización en salida datOutRa y datOutRb en las posiciones 0 y 1
+1. Se observa visualización en salida datOutRa y datOutRb en las posiciones 0 y 1
 ![sim](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/simulacionn.PNG)
  
-#### 2. Se observa visualización en salida datOutRa y datOutRb en las posiciones 2 y 3
+2. Se observa visualización en salida datOutRa y datOutRb en las posiciones 2 y 3
 ![simm](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/simulacion.PNG)
 
 ### Escritura 
 
-#### Para realizar el proceso de escritura en el banco de registros, como primera medida se debe obturar el interruptor perteneciente al reset dejando los datos en todas las posiciones del banco de registros en 0.
+Para realizar el proceso de escritura en el banco de registros, como primera medida se debe obturar el interruptor perteneciente al reset dejando los datos en todas las posiciones del banco de registros en 0.
 ![reset](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/reset.PNG)
 
-#### En segundo lugar se debe inicializar en estado 1 el pulsador RegWrite el cual permite acceder a modificar las entradas addrW y datW, siendo la primera de ellas la que permite direccionar la posición del banco de registros que almacenará los datos que posteriormente se asignaran en datW, cargando asi la visualización en las demas salidas.  
+En segundo lugar se debe inicializar en estado 1 el pulsador RegWrite el cual permite acceder a modificar las entradas addrW y datW, siendo la primera de ellas la que permite direccionar la posición del banco de registros que almacenará los datos que posteriormente se asignaran en datW, cargando asi la visualización en las demas salidas.  
 ![escritura](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/escritura.PNG)
 
 ### Implementación
+
+Para esto utilizamos el Laboratorio Virtual "Labsland" que nos permite modificar el código para ver la implementación en una conexión remota con una FPGA utilizando los Switch, Botones y Displays de la misma.
+
+Se realiza las siguientes modificaciónes a las entradas y salidas para la Implementación.
+
