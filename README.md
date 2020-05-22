@@ -1,4 +1,4 @@
-## laboratorio 06 - DiseÃ±o de banco de Registro
+## laboratorio 06 - Diseño de banco de Registro
 
 ### Integrantes:
 
@@ -6,15 +6,14 @@
 #### Esteban Suarez
 #### Jorge Sanchez
 
-## IntroducciÃ³n
+## Introducción
 
 
-Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la informaciÃ³n del siguiente link [WP06](https://classroom.github.com/g/XHLhUCe3). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cÃ³mo hacerlo revise la metodologÃ­a de trabajo, donde se explica el proceso
+Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP06](https://classroom.github.com/g/XHLhUCe3). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
 
-Las documentaciÃ³n deben estar diligencia en el archivo README.md del repositorio clonado.
+Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
 
 Una vez clone el repositorio, realice lo siguiente:
-
 
 ## Descripción 
 Se debe diseÃ±ar un banco de registro tal que:
