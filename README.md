@@ -48,7 +48,7 @@ Entregables:
 
 #### Descripción
 Por medio de los conceptos recibidos en el contenido de la tematica tratada durante las sesiones de clase se procede a realizar un desarrollo con bancos de registros, en donde se tiene el control mediante registros de entrada de 2bits y 4 bits como son:
-	reg [1:0] addrRa;
-	reg [1:0] addrRb;
-	reg [3:0] addrW;
-	reg [3:0] datW;
+####	reg [1:0] addrRa;
+####    reg [1:0] addrRb;
+####	reg [3:0] addrW;
+####	reg [3:0] datW;
