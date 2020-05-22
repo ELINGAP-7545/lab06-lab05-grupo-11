@@ -60,7 +60,7 @@ Como muestra la figura es la forma fundamental y básica, de cómo se muestran las
 
 ![secuencia](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/secuencias%20de%20estado.PNG)
 
-##Diagrama de flujo propuesto pra el banco de registro. 
+## Diagrama de flujo propuesto pra el banco de registro. 
 
 ![Diagrama de flujo](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/Diagrama%20de%20flujo.PNG)
 
