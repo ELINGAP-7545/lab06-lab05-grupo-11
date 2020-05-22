@@ -76,5 +76,5 @@ Por medio de los conceptos recibidos en el contenido de la tematica tratada dura
 
 #### Escritura 
 
-#### Para realizar el proceso de escritura en el banco de registros, como primera medida se debe obturar el interruptor perteneciente a la salida reset dejando los datos en todas las posiciones del banco de registros en 0.
+#### Para realizar el proceso de escritura en el banco de registros, como primera medida se debe obturar el interruptor perteneciente al reset dejando los datos en todas las posiciones del banco de registros en 0.
 ![reset](https://github.com/ELINGAP-7545/lab06-lab05-grupo-11/blob/master/reset.PNG)
