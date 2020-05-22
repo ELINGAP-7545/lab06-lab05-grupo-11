@@ -16,7 +16,7 @@ Las documentación deben estar diligencia en el archivo README.md del repositori
 Una vez clone el repositorio, realice lo siguiente:
 
 
-## Descipción 
+## Descripción 
 Se debe diseñar un banco de registro tal que:
 
 * El banco de registro debe tener 16 registros de R/W.
@@ -44,3 +44,4 @@ Entregables:
 
  ![caja](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab07-BancosRgistro/doc/banco%20registro.png)
 
+## Desarrollo de la practica
